@@ -1,0 +1,46 @@
+{
+	"name" : "Home",
+	"route" : "home",
+	"description" : "<p>Games home</p>",
+	"module_type" : "components",
+	"app_type" : "games",
+	"category" : "tools",
+	"version" : "0.0.0",
+	"repo" : "https://www.github.com/sp-modules/games-components-tools-home",
+	"class" : "Apps\\Games\\Components\\Home\\HomeComponent",
+	"dependencies" : 
+	{
+		"core" : 
+		{
+			"name" : "Core",
+			"version" : "0.0.0-rc.3",
+			"repo" : "https://dev.bazaari.com.au/sp-core/core"
+		},
+		"components" : [],
+		"packages" : [],
+		"middlewares" : [],
+		"views" : [],
+		"external" : [],
+		"apptype" : 
+		{
+			"name" : "Games",
+			"version" : "0.0.0",
+			"repo" : "https://www.github.com/sp-modules/games"
+		}
+	},
+	"menu" : 
+	{
+		"seq" : 0,
+		"home" : 
+		{
+			"title" : "home",
+			"icon" : "home",
+			"link" : "home"
+		}
+	},
+	"settings" : 
+	{
+		"mandatory" : true
+	},
+	"widgets" : []
+}
